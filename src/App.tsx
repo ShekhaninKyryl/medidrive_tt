@@ -1,5 +1,6 @@
 import { ThemeProvider, CssBaseline, Container, Typography } from "@mui/material";
 import { theme } from "./ui/theme";
+import { ServiceLogsPage } from "./pages/ServiceLogsPage";
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
                 <Typography variant="h4" fontWeight={700}>
                     MediDrive – Service Logs
                 </Typography>
+                <ServiceLogsPage />
             </Container>
         </ThemeProvider>
     );
